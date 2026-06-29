@@ -1,0 +1,9 @@
+Total Revenue = 
+SUM(olist_order_items_dataset[price]) 
++ SUM(olist_order_items_dataset[freight_value])
+
+Total Orders = 
+DISTINCTCOUNT(olist_orders_dataset[order_id])
+
+Avg Order Value = 
+DIVIDE([Total Revenue], [Total Orders])
