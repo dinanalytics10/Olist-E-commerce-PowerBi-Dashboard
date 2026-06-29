@@ -1,0 +1,2 @@
+Avg Review Score = 
+AVERAGE(olist_order_reviews_dataset[review_score])
